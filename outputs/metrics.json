@@ -1,0 +1,19 @@
+{
+  "project": "03-faq-retrieval",
+  "seed": 42,
+  "data_source": "Repository-authored fictional service FAQ and manually labeled paraphrase queries; not a public benchmark.",
+  "faq_count": 16,
+  "query_count": 24,
+  "metrics": {
+    "bm25": {
+      "mrr": 1.0,
+      "recall_at_3": 1.0,
+      "top1_accuracy": 1.0
+    },
+    "tfidf_baseline": {
+      "mrr": 0.9791666666666666,
+      "recall_at_3": 1.0,
+      "top1_accuracy": 0.9583333333333334
+    }
+  }
+}
